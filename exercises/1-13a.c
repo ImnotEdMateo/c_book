@@ -16,7 +16,7 @@
 int
 main()
 {
-  int c, i, j, wlen, state, maxFreq;
+  int c, i, j, wlen, state, maxFreq = 0;
   int nchars[MAX_LEN];
 
   /* Limpiar arreglo si alguna palabra excede el límite de caracteres*/
